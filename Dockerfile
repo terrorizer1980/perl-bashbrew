@@ -1,4 +1,4 @@
-FROM perl:5.28-slim
+FROM perl:5.42.0-slim
 
 RUN set -eux; \
 	apt-get update; \
